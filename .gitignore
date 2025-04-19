@@ -9,16 +9,19 @@ yarn-error.log
 .env.local
 .env.*.local
 
-# IDE
+# Build output
+dist/
+build/
+*.log
+
+# IDE and editor files
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# OS
 .DS_Store
-Thumbs.db
 
 # Project specific
-files/*
-!files/.gitkeep
+files/
+storage/
+error.log
